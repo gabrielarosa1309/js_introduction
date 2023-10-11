@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+</head>
+<body>
+    <script>
+        //objeto literal
+        let gabi = {
+            nome: "Gabriela",
+            sobrenome: "Ramos Mariano Rosa",
+            idade: 41,
+        };
+        gabi.cpf = '12312312312'
+
+        //objeto tracional
+        let joao = new Object();
+        joao.nome = "João Victor";
+        joao.sobrenome = "Lunardi Vicente"
+
+        console.log(gabi);
+        console.log(joao);
+
+        let pessoas = [];
+        pessoas.push(gabi);
+        pessoas.push(joao);
+
+        pessoas.forEach(function(p){
+            console.log(`Nome: ${p.nome}`);
+        })
+    </script>
+</body>
+</html>
