@@ -1,0 +1,42 @@
+{
+  "contatos": [
+    {
+      "id": 1,
+      "nome": "json-server",
+      "telefone": "typicode"
+    }
+  ],
+
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "joao",
+      "author": "pao-de-queijo-com-ketchup"
+    },
+    {
+      "id": 4,
+      "title": "churrasco",
+      "author": "panceta"
+    },
+    {
+      "id": 5,
+      "title": "rubao-amassa-rodizio",
+      "author": "magnifico"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
