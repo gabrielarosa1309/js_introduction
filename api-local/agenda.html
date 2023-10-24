@@ -10,12 +10,25 @@
     <form onsubmit="cadastrar(event)">
         <script src="js/funcoes.js"></script>
 
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Insira seu nome" id="nome">
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="text" placeholder="Insira seu email" id="email">
+        <br><br>
+
         <label for="cep">CEP</label>
         <input autocomplete="off" type="number" onblur="buscarEndereco(this.value)" placeholder="Insira seu cep" id="cep">
+        <span id="not-found"></span>
         <br><br>
 
         <label for="endereco">Endereço</label>
         <input type="text" placeholder="Insira seu endereço" id="endereco">
+        <br><br>
+
+        <label for="numero">Número</label>
+        <input type="number" placeholder="Insira o número" id="numero">
         <br><br>
 
         <label for="cidade">Cidade</label>
